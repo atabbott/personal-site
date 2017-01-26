@@ -12,6 +12,19 @@
 <body>
   <app-root>Loading...</app-root>
 
+  <script src="https://www.gstatic.com/firebasejs/3.6.7/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCL_xNlQmdceXUYvKiD9ffIwy5LQDIGwEM",
+      authDomain: "personal-website-156518.firebaseapp.com",
+      databaseURL: "https://personal-website-156518.firebaseio.com",
+      storageBucket: "personal-website-156518.appspot.com",
+      messagingSenderId: "277274725759"
+    };
+    firebase.initializeApp(config);
+  </script>
+
   <script
     src="https://code.jquery.com/jquery-3.1.1.slim.js"
     integrity="sha256-5i/mQ300M779N2OVDrl16lbohwXNUdzL/R2aVUXyXWA="
