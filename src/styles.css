@@ -1,1 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+.jumbotron {
+  background-color: inherit;
+  border-radius: 0px;
+}
+
+html body {background-color: #f1f1f1  }
